@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--Font-awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="dist/style.css">
+    
+
+
+    <title>Details</title>
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark p-0">
+      <div class="container">
+          <a class="navbar-brand pt-0" href="#">Blogen</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Mynavbar1" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="Mynavbar1">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link " href="index.html">Dashboard <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="posts.html">Posts</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link " href="categories.html">Categories</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link  active " href="users.html">Users</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown mr-3">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                      <i class="fas fa-user"></i> 
+                      Welcome Brad
+                    </a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="profiles.html"> <i class="fas fa-user-circle"></i> Profile</a>
+                      <a class="dropdown-item" href="settings.html"> <i class="fas fa-cog"></i> Settings</a>
+                    </div>
+                      
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="log.html"> <i class="fas fa-user-times"></i> Log Out</a>
+                </li>
+                 </ul>
+            </div>
+      </div>
+     
+    </nav> 
+    <header id="dashboard" class="bg-primary">
+      <div class="container mt-1 mt-lg-0 d-flex flex-row py-2 ">
+     <h4 class="text-white ml-2 ">Post One</h4>
+     </div>
+     </header>
+     <!--Buttons-->
+     <section id="buttons">
+         <div class="container">
+             <div class="row">
+                 <div class="col">
+<a href="index.html" class="btn btn-light my-3 btn-block"> <i class="fas fa-arrow-left"></i> Back to Dashboard</a>
+                 </div>
+                 <div class="col">
+
+
+                 </div>
+                 <div class="col">
+                    <button class="btn btn-success btn-block my-2 ">
+                        <i class="fas fa-check"></i>  Save Changes
+                 </div>
+                 <div class="col">
+<button class="btn btn-danger btn-block my-2 "> <i class="fas fa-times"></i> Delete Post</button>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!--Card -->
+
+<section class="Big_card">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Edit Post</h3>
+                    </div>
+                    <div class="card-body">
+<form>
+    <div class="form-group">
+       <label for="name"> Title</label> 
+       <input type="text"id="name"class="form-control" placeholder="Post One">
+    </div>
+    <div class="form-group">
+        <label for="category">Category</label> 
+       <select name="" id="category" class="form-control">
+         <option value="">Web Development</option>
+         <option value="">Bussines</option>
+         <option value="">Health and Wellnes</option>
+        
+       </select>
+     </div>
+     <div class="form-group">
+        <label for="file">Image Upload</label>
+       <input type="file" class="form-control-file" id="file">
+       <small class="text-muted">Max size 3mb</small>
+      </div>
+      <div class="form-group">
+          <label for="Textarea2">Body</label>
+         <textarea name="" id="Textarea2" class="form-control" cols="150" rows="7">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui impedit earum animi quam. Eaque, molestias dignissimos sed eligendi vitae nesciunt deleniti explicabo, beatae fuga ab quam ullam delectus nulla dolconsectetur assumenda! Ratione commodi esse reiciendis, deleniti inventore earum saepe unde voluptatum ducimus totam sapiente? Alias delectus non, dicta corrupti atque nihil.
+         </textarea>
+        </div>
+</form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer >
+    <div class="container text-center text-white">
+      <h6>CopyRight by &copy; 2019 Blogen </h6>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+   </body>
+</html>                
+                  
